@@ -4,3 +4,38 @@ body,
     height: 100%;
     margin: 0;
 }
+
+.flex-container {
+
+    height: 300px;
+    width: 700px;
+  
+    display: flex;
+    justify-content: space-between;
+}
+
+div {
+    background-color: #DAA520;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    
+}
+
+div + div {
+    align-self:center;
+
+}
+
+div + div + div {
+    align-self: flex-end;
+}
+
+div + div + div + div{
+    align-self:center;
+
+}
+div + div + div + div + div{
+    align-self:flex-start;
+
+}
